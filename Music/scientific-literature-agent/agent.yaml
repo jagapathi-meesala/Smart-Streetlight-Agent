@@ -1,0 +1,25 @@
+spec_version: "0.1.0"
+name: scientific-literature-agent
+version: 1.0.0
+description: A framework-independent agent for structured scientific literature search, paper analysis, and citation management.
+license: MIT
+skills:
+  - literature-search
+  - paper-analysis
+  - citation-management
+tools:
+  - search-literature
+  - analyze-paper
+  - build-citation
+runtime:
+  max_turns: 20
+  timeout: 60
+tags:
+  - scientific-literature
+  - research
+  - citations
+  - evidence-synthesis
+metadata:
+  domain: scientific-literature
+  portability: framework-independent
+  validation_target: OpenGAP-0.1.0

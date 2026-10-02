@@ -1,0 +1,9 @@
+name: analyze-paper
+description: Tool definition for analyze-paper.
+version: 1.0.0
+input_schema:
+  type: object
+implementation:
+  type: script
+  path: analyze_paper.py
+  runtime: python3

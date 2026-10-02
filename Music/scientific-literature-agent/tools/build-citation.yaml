@@ -1,0 +1,9 @@
+name: build-citation
+description: Tool definition for build-citation.
+version: 1.0.0
+input_schema:
+  type: object
+implementation:
+  type: script
+  path: build_citation.py
+  runtime: python3

@@ -1,0 +1,3 @@
+from .define_research_question import CONTRACT as define_research_question
+from .select_methodology import CONTRACT as select_methodology
+from .create_methodology_plan import CONTRACT as create_methodology_plan

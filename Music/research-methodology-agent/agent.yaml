@@ -1,0 +1,16 @@
+spec_version: "0.1.0"
+name: research-methodology-agent
+version: 1.0.0
+description: A framework-independent agent for structuring research questions, selecting study methodologies, and producing reproducible methodology plans.
+skills:
+  - research-question
+  - method-selection
+  - methodology-planning
+tools:
+  - define-research-question
+  - select-methodology
+  - create-methodology-plan
+tags:
+  - research
+  - methodology
+  - study-design

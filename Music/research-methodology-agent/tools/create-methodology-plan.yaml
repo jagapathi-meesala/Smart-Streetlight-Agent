@@ -1,0 +1,9 @@
+name: create-methodology-plan
+description: Create a structured reproducible research methodology plan.
+version: 1.0.0
+input_schema:
+  type: object
+  required: [research_question, method]
+  properties:
+    research_question: {type: string}
+    method: {type: string}

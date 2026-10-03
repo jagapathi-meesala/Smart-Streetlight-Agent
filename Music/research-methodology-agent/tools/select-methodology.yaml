@@ -1,0 +1,12 @@
+name: select-methodology
+description: Identify candidate study methodologies from explicit research characteristics.
+version: 1.0.0
+input_schema:
+  type: object
+  required: [objective]
+  properties:
+    objective: {type: string}
+    intervention: {type: boolean}
+    randomization: {type: boolean}
+    qualitative: {type: boolean}
+    longitudinal: {type: boolean}

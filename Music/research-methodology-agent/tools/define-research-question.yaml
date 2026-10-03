@@ -1,0 +1,12 @@
+name: define-research-question
+description: Structure a research topic into an explicit, measurable research question.
+version: 1.0.0
+input_schema:
+  type: object
+  required: [topic, population, outcome]
+  properties:
+    topic: {type: string}
+    population: {type: string}
+    outcome: {type: string}
+    exposure: {type: string}
+    context: {type: string}

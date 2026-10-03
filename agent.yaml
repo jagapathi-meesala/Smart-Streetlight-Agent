@@ -1,0 +1,24 @@
+spec_version: "0.1.0"
+name: smart-streetlight-agent
+version: 1.0.0
+description: A framework-independent agent for monitoring streetlight status, detecting faults, optimizing lighting schedules, and calculating energy usage.
+author: Agent Passport Project
+license: MIT
+skills:
+  - streetlight-monitoring
+  - fault-detection
+  - energy-optimization
+tools:
+  - analyze-streetlight-status
+  - detect-streetlight-faults
+  - optimize-lighting-schedule
+  - calculate-energy-usage
+runtime:
+  max_turns: 20
+  timeout: 120
+tags:
+  - smart-city
+  - streetlights
+  - iot
+  - energy-optimization
+  - maintenance

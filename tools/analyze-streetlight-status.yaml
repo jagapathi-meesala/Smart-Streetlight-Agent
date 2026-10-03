@@ -1,0 +1,13 @@
+name: analyze-streetlight-status
+description: Analyze supplied streetlight operating status and maintenance priority.
+input_schema:
+  type: object
+  properties:
+    streetlight_id: {type: string}
+    operational_status: {type: string}
+    brightness: {type: number}
+    power_watts: {type: number}
+    ambient_light: {type: number}
+    motion_detected: {type: boolean}
+    last_maintenance_days: {type: number}
+  required: [streetlight_id, operational_status, brightness, power_watts, ambient_light, motion_detected, last_maintenance_days]

@@ -1,0 +1,12 @@
+name: detect-streetlight-faults
+description: Detect deterministic streetlight fault conditions from supplied readings.
+input_schema:
+  type: object
+  properties:
+    operational_status: {type: string}
+    brightness: {type: number}
+    power_watts: {type: number}
+    ambient_light: {type: number}
+    motion_detected: {type: boolean}
+    last_maintenance_days: {type: number}
+  required: [operational_status, brightness, power_watts, ambient_light, motion_detected, last_maintenance_days]

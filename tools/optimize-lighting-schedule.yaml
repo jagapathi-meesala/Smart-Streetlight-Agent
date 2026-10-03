@@ -1,0 +1,10 @@
+name: optimize-lighting-schedule
+description: Recommend a deterministic brightness level from supplied environmental conditions.
+input_schema:
+  type: object
+  properties:
+    current_hour: {type: integer}
+    ambient_light: {type: number}
+    motion_level: {type: number}
+    brightness_levels: {type: array}
+  required: [current_hour, ambient_light, motion_level, brightness_levels]

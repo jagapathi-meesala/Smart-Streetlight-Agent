@@ -1,0 +1,9 @@
+name: calculate-energy-usage
+description: Calculate streetlight energy consumption from power, hours, and light count.
+input_schema:
+  type: object
+  properties:
+    power_watts: {type: number}
+    operating_hours: {type: number}
+    number_of_lights: {type: integer}
+  required: [power_watts, operating_hours, number_of_lights]
